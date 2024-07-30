@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Calibri";
+}
+
+body{
+    background-color: rgb(45, 224, 114);
+}
+nav{
+    display: flex;
+    background: grey;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 25px;
+}
+.d-flex{
+    display: flex;
+    width: 100%;
+}
+.myform{
+    border: 2px solid transparent;
+border-radius: 9px;
+font-size: 15px;
+text-align: justify;
+}
+.btn{
+    height: 29px;
+width: 25%;
+margin: 0 10px;
+border-radius: 5px;
+border: none;
+}
+.header{
+    display: flex;
+}
+.container{
+    width: 300px;    
+    background-color: rgb(30, 91, 221);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+.condition{
+    width: 300px;    
+    background-color: #FFF;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: 2px;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #2e4f6e;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.forcast-container{
+    width: 280px;
+    height: 250px;
+    margin: 10px;
+    background-color: #dadde1;
+    border: 2px solid #8a8b9d;
+    border-radius: 5px;
+}
+
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+.forcast{
+    display: flex;
+    overflow-x:scroll;
+}
+
+/*Weather condition*/
+.condition-container{
+    text-align: center;
+    display: flex;
+    /* height: 38vh; */
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding: 30px 0px;
+    /* margin: 0px -1px; */
+    flex-direction: column;
+    width: 300px;
+    align-items: flex-start;
+}
+
+.wind-value{
+    padding: 12px 10px;
+}
+.wind-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 1.4em;
+    text-align: center;
+}
+.Humidity-value{
+    padding: 12px 10px;
+}
+
+.Humidity-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+
+.Visibility-value{
+    padding: 12px 10px;
+}
+
+.Visibility-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 1.4em;
+    text-align: center;
+}
+/*forcast*/
+.forcast-icon{
+    width: 300px;
+    height: 128px;
+}
+.forcast-icon img{
+    display: block;
+    margin: 0 auto;
+}
+.forcast-value{
+    width: 276px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.forcast-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 2em;
+    text-align: center;
+    cursor: pointer;
+}
+.forcast-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+.forcast-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+.Day{
+    position: relative;
+    top: 30px;
+    text-align: center;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    height: 50px;
+}

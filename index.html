@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App - JavaScript</title>
+    <link rel="stylesheet" href="font/calibri.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <a class="navbar-brand">Weather</a>
+        <div class="container-fluid">
+            <form action="" id="form" class="d-flex">
+                <input class="myform " type="search" placeholder="Search">
+                <button class="btn" type="submit">Search</button>
+              </form>
+        </div>
+    </nav>
+    <div class="header">
+        <div class="container">
+            <div class="app-title">
+                <p>Weather</p>
+            </div>
+            <div class="notification"> </div>
+            <div class="weather-container">
+                <div class="weather-icon">
+                    <img src="icons/unknown.png" alt="">
+                </div>
+                <div class="temperature-value">
+                    <p>- °<span>C</span></p>
+                </div>
+                <div class="temperature-description">
+                    <p> - </p>
+                </div>
+                <div class="location">
+                    <p>-</p>
+                </div>
+            </div>
+        </div>
+        <div class="condition">
+            <div class="app-title">
+                <p>Weather-condition</p>
+            </div>
+            <div class="notification"> </div>
+            <div class="condition-container">
+                <div class="wind-value">
+                    <p>wind Speed : </p>
+                </div>
+                <div class="Humidity-value">
+                    <p>Humidity : </p>
+                </div>
+                <div class="Visibility-value">
+                    <p> visibility : </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="forcast">
+        <!-- Monday -->
+        <div class="forcast-container">
+            <div class="forcast-icon" id="icon-1">
+                <img src="icons/unknown.png" alt="">
+            </div>
+            <div class="forcast-value">
+                <p id="day1min">- °<span>C</span> <br> min</p>
+                <p id="day1max">- °<span>C</span> <br> max</p>
+            </div>
+            
+            <div class="Day">
+                <p id="day1">Monday</p>
+            </div>
+        </div>
+        <!-- Tuesday -->
+        <div class="forcast-container">
+            <div class="forcast-icon" id="icon-2">
+                <img src="icons/unknown.png" alt="">
+            </div>
+            <div class="forcast-value">
+                <p id="day2min">- °<span>C</span> <br> min</p>
+                <p id="day2max">- °<span>C</span> <br> max</p>
+            </div>
+            
+            <div class="Day">
+                <p id="day2">Monday</p>
+            </div>
+        </div>
+        <!-- Wednesday -->
+        <div class="forcast-container">
+            <div class="forcast-icon" id="icon-3">
+                <img src="icons/unknown.png" alt="">
+            </div>
+            <div class="forcast-value">
+                <p id="day3min">- °<span>C</span> <br> min</p>
+                <p id="day3max">- °<span>C</span> <br> max</p>
+            </div>
+            
+            <div class="Day">
+                <p id="day3">Monday</p>
+            </div>
+        </div>
+        <!-- Thrusday -->
+        <div class="forcast-container">
+            <div class="forcast-icon" id="icon-4">
+                <img src="icons/unknown.png" alt="">
+            </div>
+            <div class="forcast-value">
+                <p id="day4min">- °<span>C</span> <br> min</p>
+                <p id="day4max">- °<span>C</span> <br> max</p>
+            </div>
+           
+            <div class="Day">
+                <p id="day4">Monday</p>
+            </div>
+        </div>
+        <!-- Friday -->
+        <div class="forcast-container">
+            <div class="forcast-icon" id="icon-5">
+                <img src="icons/unknown.png" alt="">
+            </div>
+            <div class="forcast-value">
+                <p id="day5min">- °<span>C</span> <br> min</p>
+                <p id="day5max">- °<span>C</span> <br> max</p>
+            </div>
+            <div class="Day">
+                <p id="day5">Monday</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Designed by Shinjan Biswas</p>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
